@@ -906,7 +906,7 @@ var hlsDefaultConfig = _objectSpread(_objectSpread({
   // used by cap-level-controller
   initialLiveManifestSize: 1,
   // used by stream-controller
-  maxBufferLength: 60,
+  maxBufferLength: 600,
   // used by stream-controller
   backBufferLength: Infinity,
   // used by buffer-controller
@@ -936,7 +936,7 @@ var hlsDefaultConfig = _objectSpread(_objectSpread({
   // used by buffer-controller
   liveBackBufferLength: null,
   // used by buffer-controller
-  maxMaxBufferLength: 600,
+  maxMaxBufferLength: 1200,
   // used by stream-controller
   enableWorker: true,
   // used by demuxer
